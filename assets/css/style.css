@@ -1,0 +1,272 @@
+body{
+    background-image:url("../images/round.png");
+}
+
+/* Header including name*/
+header {
+    background-color:#ffffff;
+    border: 1px solid #cccccc;
+    color: #4aaaa5; 
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%; 
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    
+}
+#name {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:20 px;
+    float:left;
+    padding:25px;
+    margin-left:100px;
+}
+/*style to make navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+/*right side bar nav css*/
+.navbar{
+    padding:25px;
+    text-decoration: none;
+    color:#777777;
+    margin-right:20px;
+    float:right;
+}
+.navbar:hover {
+    color: #4aaaa5;
+}
+h2{
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+/*About Me table*/
+#aboutme {
+    margin-top:100px;
+    width:650px;
+    background-color: #ffffff;
+    text-align: left;
+    margin-left: 100px;
+    margin-right:50px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    float:left;
+}
+/*photo from about*/
+#grant {
+    width:200px;
+    padding: 10px;
+    float: left;
+    
+}
+/*description in about me area*/
+#desc {
+    margin-left: 20px;
+    text-align: left;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*formating for the portfolio section*/
+#portfolio{
+    
+    width:450px;
+    height: 550px;
+    background-color: #ffffff;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    float: left;
+    border:1px solid #cccccc;
+    padding: 30px;
+    
+}
+/*formating for the photos in the portfolio section*/
+.hangmanbox{
+   clear: both;
+    width: 100px;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+   
+}
+.hangman{
+    position: absolute;
+    top: 80%;
+    left:100%;
+    height: 20px;
+    width: 200px;
+    background-color: #4aaaa5;    
+    transform: translate(-50%, -50%);
+}
+.hangimg{
+    width:200px;
+}
+
+.rpgbox{
+    width: 100px;
+    position: relative;
+    text-align: center;
+    margin-right: 110px;
+    color: white;
+    float: right;
+    
+}
+.rpg{
+    position: absolute;
+    top: 80%;
+    left:100%;
+    height: 20px;
+    width: 200px;
+    background-color: #4aaaa5;    
+    transform: translate(-50%, -50%);
+}
+.rpgimg{
+    width:200px;
+}
+
+.triviabox{
+    clear: both;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+}
+.trivia{
+    position: absolute;
+    top: 80%;
+    left:100%;
+    height: 20px;
+    width: 200px;
+    background-color: #4aaaa5;    
+    transform: translate(-50%, -50%);
+}
+.triviaimg{
+    width:200px;
+}
+.rutgersbox{
+    width: 100px;
+    margin-top: 20px;
+    margin-left:10px;
+    margin-right: 110px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float: right;
+}
+.rutgers{
+    position: absolute;
+    top: 80%;
+    left:100%;
+    height: 20px;
+    width: 200px;
+    background-color: #4aaaa5;    
+    transform: translate(-50%, -50%);
+}
+.rutgersimg{
+    width:200px;
+}
+.rockbox{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 180px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+}
+.rock{
+    position: absolute;
+    top: 80%;
+    left:100%;
+    height: 20px;
+    width: 200px;
+    background-color: #4aaaa5;    
+    transform: translate(-50%, -50%);
+}
+.rockimg{
+    width:200px;
+}
+
+/*form to contact Grant*/
+#form{
+width: 400px;
+height: 300px;
+padding: 20px;
+background-color: #ffffff;
+border: .5px solid #cccccc;
+float: left;
+margin-top: 100px;
+margin-left: 100px;
+}
+#namein{
+    width: 375px;
+    height: 20px;
+}
+#email{
+    width:375px;
+    height: 20px;
+}
+#subbtn{
+    background-color: #4aaaa5;
+}
+/*Connect section for social media and code logs*/
+#connect{
+    width:300px;
+    float: right;
+    text-align: left;
+    padding: 10px;
+    margin-right: 40px;
+    margin-bottom: 200px;
+    border:1px solid #cccccc;
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+h3{
+    color:#4aaaa5;
+    text-align: center;
+}
+#github{
+    width:50px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    
+}
+#linkedin{
+    width:50px;
+    padding: 5px;
+}
+#stack{
+    width:45px;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+/*formating for the footer*/
+footer{
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color:#666666;
+    color: #777777;
+    padding:20px;
+    border-top: 10px solid #4aaaa5;
+}
+a{
+    color: white;
+}
