@@ -270,3 +270,46 @@ footer{
 a{
     color: white;
 }
+@media only screen and (max-width: 640px) {
+header{
+    position: static;
+}
+#aboutme{
+    float: none;
+}
+#connect{
+    margin-left: 100px;
+    
+}
+#portfolio{
+    float: none;
+}
+.hangmanbox{
+    clear: both;
+     width: 100px;
+     margin-left: 10px;
+     position: relative;
+     text-align: center;
+     color: white;
+     float:none;
+}
+.hangimg{
+    width:400px;
+}
+/*keep scaling the rest of the images like the above, this should provide the proper viewpoint for portfolio*/
+/*fix the label overlays for the photos*/
+/*resize the box for the portfolio pages*/
+.rpgimg{
+    width:400px;
+}
+}
+
+
+
+
+@media only screen and (max-width:768px) and (min-width:641px){
+
+
+
+}
+@media only screen and (max-width:980px) and (min-width:769px){
