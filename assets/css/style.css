@@ -271,18 +271,31 @@ a{
     color: white;
 }
 @media only screen and (max-width: 640px) {
+    .navbar{
+        width: 650px;
+        
+    }
+    #name{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 header{
     position: static;
-}
-#name{
-    width: 100px;
+    text-align: center;
 }
 #aboutme{
+    margin-left: 1%;
+    width: 630px;
     float: none;
 }
 #connect{
-    margin-left: 400px;
     width: 475px;
+    float: left;
+    margin-left: 1%;
     
 }
 #portfolio{
@@ -298,16 +311,15 @@ header{
      float:none;
 }
 .hangimg{
-    width:400px;
+    width:200px;
 }
 /*keep scaling the rest of the images like the above, this should provide the proper viewpoint for portfolio*/
 /*fix the label overlays for the photos*/
 /*resize the box for the portfolio pages*/
 .rpgimg{
-    width:400px;
+    width:200px;
+    float: left;
 }
-
-
 
 
 @media only screen and (max-width:768px) and (min-width:641px){
